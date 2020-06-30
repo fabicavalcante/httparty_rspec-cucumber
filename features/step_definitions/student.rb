@@ -1,5 +1,4 @@
   Given("que eu tenha as informações do aluno para realizar a consulta") do
-
   end
 
   Given("que eu tenha as informações do aluno para realizar a criação") do
@@ -47,19 +46,4 @@
   Then("Eu terei o status code {int}") do |int|
     expect(@response.code).to eq (int)
   end
-
-#   Then("Eu terei o status code {int}") do |int|
-#     puts @get_students.body
-#     expect(@get_students.code).to eq 200
-#   end
-
-
-# Dado('que eu faça um GET no endpoint clientes') do
-#     @get_clientes = RegisterService.get '/api/v1/students/1'
-#   end
-  
-#   Entao('o retorno dele será todos os clientes cadastrados') do
-#     puts @get_clientes.body
-#     expect(@get_clientes.code).to eq 200
-#   end
 
